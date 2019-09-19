@@ -13,13 +13,13 @@ namespace n01352022_Assignment1 {
     public partial class skiing_review {
         
         /// <summary>
-        /// skii_review_form control.
+        /// ski_review_form control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm skii_review_form;
+        protected global::System.Web.UI.HtmlControls.HtmlForm ski_review_form;
         
         /// <summary>
         /// aspx_review_full_name control.
@@ -94,13 +94,13 @@ namespace n01352022_Assignment1 {
         protected global::System.Web.UI.WebControls.CheckBoxList aspx_review_improve;
         
         /// <summary>
-        /// aspx_review_reccomend control.
+        /// aspx_review_recommend control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList aspx_review_reccomend;
+        protected global::System.Web.UI.WebControls.RadioButtonList aspx_review_recommend;
         
         /// <summary>
         /// aspx_review_additional_comments control.

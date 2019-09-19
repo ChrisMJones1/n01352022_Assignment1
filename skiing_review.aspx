@@ -11,7 +11,7 @@
         <h1>Northern Horseshoe Discount Skiing Review Form</h1>
         <p><i>Est. 2000</i></p>
     </header>
-    <form id="skii_review_form" runat="server">
+    <form id="ski_review_form" runat="server">
         <main>
             <div class="contact_info">
                 <section>
@@ -120,17 +120,17 @@
                 <section>
                     <h3>Please select which aspects of your experience you felt could be improved (select all that apply):</h3>
                     <asp:CheckBoxList runat="server" ID="aspx_review_improve" >
-                        <asp:ListItem Text="Transportation to Skii Chalet" Value="aspx_review_improve_transportation" ></asp:ListItem>
+                        <asp:ListItem Text="Transportation to Ski Chalet" Value="aspx_review_improve_transportation" ></asp:ListItem>
                         <asp:ListItem Text="Check In" Value="aspx_review_improve_checkin" ></asp:ListItem>
-                        <asp:ListItem Text="Skii Lifts" Value="aspx_review_improve_skii_lifts" ></asp:ListItem>
-                        <asp:ListItem Text="Skii Slopes" Value="aspx_review_improve_skii_slopes" ></asp:ListItem>
+                        <asp:ListItem Text="Ski Lifts" Value="aspx_review_improve_ski_lifts" ></asp:ListItem>
+                        <asp:ListItem Text="Ski Slopes" Value="aspx_review_improve_ski_slopes" ></asp:ListItem>
                     </asp:CheckBoxList>
                 </section>
                 <section>
-                    <h3>Would you reccomend Northern Horseshoe Discount Skiing to a friend?</h3>
-                    <asp:RadioButtonList runat="server" ID="aspx_review_reccomend" >
-                        <asp:ListItem Text="Yes!" Value="aspx_review_reccomend_yes" ></asp:ListItem>
-                        <asp:ListItem Text="No" Value="aspx_review_reccomend_no" ></asp:ListItem>
+                    <h3>Would you recommend Northern Horseshoe Discount Skiing to a friend?</h3>
+                    <asp:RadioButtonList runat="server" ID="aspx_review_recommend" >
+                        <asp:ListItem Text="Yes!" Value="aspx_review_recommend_yes" ></asp:ListItem>
+                        <asp:ListItem Text="No" Value="aspx_review_recommend_no" ></asp:ListItem>
                     </asp:RadioButtonList>
                 </section>
                 <section>
