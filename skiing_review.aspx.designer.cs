@@ -22,93 +22,111 @@ namespace n01352022_Assignment1 {
         protected global::System.Web.UI.HtmlControls.HtmlForm ski_review_form;
         
         /// <summary>
-        /// aspx_review_full_name control.
+        /// reviewer_full_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox aspx_review_full_name;
+        protected global::System.Web.UI.WebControls.TextBox reviewer_full_name;
         
         /// <summary>
-        /// aspx_review_email control.
+        /// reviewer_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox aspx_review_email;
+        protected global::System.Web.UI.WebControls.TextBox reviewer_email;
         
         /// <summary>
-        /// aspx_review_subscribe_newsletter control.
+        /// reviewer_subscribe_newsletter control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList aspx_review_subscribe_newsletter;
+        protected global::System.Web.UI.WebControls.CheckBoxList reviewer_subscribe_newsletter;
         
         /// <summary>
-        /// aspx_review_month control.
+        /// review_month control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList aspx_review_month;
+        protected global::System.Web.UI.WebControls.DropDownList review_month;
         
         /// <summary>
-        /// aspx_review_day control.
+        /// review_day control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList aspx_review_day;
+        protected global::System.Web.UI.WebControls.DropDownList review_day;
         
         /// <summary>
-        /// aspx_review_year control.
+        /// review_year control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList aspx_review_year;
+        protected global::System.Web.UI.WebControls.DropDownList review_year;
         
         /// <summary>
-        /// aspx_review_rating control.
+        /// review_rating control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList aspx_review_rating;
+        protected global::System.Web.UI.WebControls.RadioButtonList review_rating;
         
         /// <summary>
-        /// aspx_review_improve control.
+        /// review_improve control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList aspx_review_improve;
+        protected global::System.Web.UI.WebControls.CheckBoxList review_improve;
         
         /// <summary>
-        /// aspx_review_recommend control.
+        /// reviewer_recommend control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList aspx_review_recommend;
+        protected global::System.Web.UI.WebControls.RadioButtonList reviewer_recommend;
         
         /// <summary>
-        /// aspx_review_additional_comments control.
+        /// reviewer_return_desire_rating control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox aspx_review_additional_comments;
+        protected global::System.Web.UI.WebControls.TextBox reviewer_return_desire_rating;
+        
+        /// <summary>
+        /// reviewer_additional_comments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox reviewer_additional_comments;
+        
+        /// <summary>
+        /// review_overall_rating_box control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl review_overall_rating_box;
     }
 }
