@@ -35,10 +35,8 @@ namespace n01352022_Assignment1
                     string Review_Year = Review_Year_String.Substring(Review_Year_String.Length - 4);
                     //create a full date string
                     string Review_Full_Date = Review_Month + '/' + Review_Day + '/' + Review_Year;
-                    //store the review rating as a string
-                    string Review_Rating_String = review_rating.Text.ToString();
-                    //subsect the number from the string and convert it to an interger, to make assigning an overall score easier
-                    int Review_Rating_Score = Convert.ToInt32(Review_Rating_String.Substring(Review_Rating_String.Length - 1));
+                    //store the review satisfaction rating as an int
+                    int Review_Satisfaction_Rating = Convert.ToInt32(review_satisfaction_rating.Text);
                     //collect the reviewer's choice of whether they would recommend the skii resort to a friend, and store it as a boolean value
                     //to make the assignment of an overall score easier
                     bool Reviewer_Recommend = Boolean.Parse(reviewer_recommend.Text);
@@ -50,7 +48,7 @@ namespace n01352022_Assignment1
                     //and reviewer's who had a low satisfaction score but a very high desire to return will need less incentive to have a return trip by their own admission in this score rating.
                     //The reviewer's recommendation to a friend will add 1 points if they are willing to refer a friend, and does not add a point if they do not want to. The reasoning behind why not wanting to refer a friend does not subtract any points is that
                     //many users may not be willing to refer a friend because of their views on sharing other people's personal information, which is not reflective on how much they enjoyed their trip.
-                    Review_Overall_Score += Review_Rating_Score + (Reviewer_Return_Desire_Rating - 5) + (Reviewer_Recommend != false ? 1 : 0);
+                    Review_Overall_Score += Review_Satisfaction_Rating + (Reviewer_Return_Desire_Rating - 5) + (Reviewer_Recommend != false ? 1 : 0);
                     //ensure that the Review_Overall_Score conforms to a 1-5 star score
                     //convert the Review_Overall_Score to a 0 if it is lower than 0
                     if (Review_Overall_Score < 0)

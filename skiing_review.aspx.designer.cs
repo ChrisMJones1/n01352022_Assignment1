@@ -76,13 +76,13 @@ namespace n01352022_Assignment1 {
         protected global::System.Web.UI.WebControls.DropDownList review_year;
         
         /// <summary>
-        /// review_rating control.
+        /// review_satisfaction_rating control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList review_rating;
+        protected global::System.Web.UI.WebControls.RadioButtonList review_satisfaction_rating;
         
         /// <summary>
         /// review_improve control.

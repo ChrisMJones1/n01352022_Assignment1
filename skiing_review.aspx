@@ -125,15 +125,15 @@
                 <section>
                     <h3>Rate your satisfaction out of 5:</h3>
                     <div>
-                        <asp:RadioButtonList runat="server" ID="review_rating" >
-                            <asp:ListItem Text="1" Value="review_rating_1"></asp:ListItem>
-                            <asp:ListItem Text="2" Value="review_rating_2"></asp:ListItem>
-                            <asp:ListItem Text="3" Value="review_rating_3"></asp:ListItem>
-                            <asp:ListItem Text="4" Value="review_rating_4"></asp:ListItem>
-                            <asp:ListItem Text="5" Value="review_rating_5"></asp:ListItem>
+                        <asp:RadioButtonList runat="server" ID="review_satisfaction_rating" >
+                            <asp:ListItem Text="1" Value="1"></asp:ListItem>
+                            <asp:ListItem Text="2" Value="2"></asp:ListItem>
+                            <asp:ListItem Text="3" Value="3"></asp:ListItem>
+                            <asp:ListItem Text="4" Value="4"></asp:ListItem>
+                            <asp:ListItem Text="5" Value="5"></asp:ListItem>
                         </asp:RadioButtonList>
                         <%-- Validate that a rating is selected --%>
-                        <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ErrorMessage="Please select a rating" ControlToValidate="review_rating" ></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ErrorMessage="Please select a rating" ControlToValidate="review_satisfaction_rating" ></asp:RequiredFieldValidator>
                     </div>
                 </section>
                 <section>
